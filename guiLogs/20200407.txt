@@ -1,0 +1,67 @@
+--------------------------------info[00:07:33]--------------------------------
+System.Exception: v2rayN start up
+
+ 
+--------------------------------info[00:07:39]--------------------------------
+System.Exception: Webserver prefixes http://127.0.0.1:10810/pac/
+
+ 
+--------------------------------info[00:07:39]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[00:40:16]--------------------------------
+System.Exception: Webserver Stop 127.0.0.1
+
+ 
+--------------------------------由于线程退出或应用程序请求，已中止 I/O 操作。[00:40:16]--------------------------------
+System.Net.HttpListenerException (0x80004005): 由于线程退出或应用程序请求，已中止 I/O 操作。
+   在 System.Net.HttpListener.GetContext()
+   在 v2rayN.HttpProxyHandler.HttpWebServer.<Run>b__4_0(Object o)
+
+ 
+--------------------------------ID 为 12076 的进程当前未运行。[00:45:21]--------------------------------
+System.ArgumentException: ID 为 12076 的进程当前未运行。
+   在 System.Diagnostics.Process.GetProcessById(Int32 processId, String machineName)
+   在 v2rayN.Handler.V2rayHandler.V2rayStop()
+
+ 
+--------------------------------远程服务器返回错误: (500) 内部服务器错误。[01:35:56]--------------------------------
+System.Net.WebException: 远程服务器返回错误: (500) 内部服务器错误。
+   在 v2rayN.Handler.V2rayUpdateHandle.ws_DownloadFileCompleted(Object sender, AsyncCompletedEventArgs e)
+
+ 
+--------------------------------info[02:11:05]--------------------------------
+System.Exception: v2rayN start up
+
+ 
+--------------------------------info[09:01:44]--------------------------------
+System.Exception: v2rayN start up
+
+ 
+--------------------------------info[17:20:22]--------------------------------
+System.Exception: v2rayN start up
+
+ 
+--------------------------------info[17:36:44]--------------------------------
+System.Exception: Webserver prefixes http://127.0.0.1:10810/pac/
+
+ 
+--------------------------------info[17:36:44]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[17:36:47]--------------------------------
+System.Exception: Webserver Stop 127.0.0.1
+
+ 
+--------------------------------由于线程退出或应用程序请求，已中止 I/O 操作。[17:36:47]--------------------------------
+System.Net.HttpListenerException (0x80004005): 由于线程退出或应用程序请求，已中止 I/O 操作。
+   在 System.Net.HttpListener.GetContext()
+   在 v2rayN.HttpProxyHandler.HttpWebServer.<Run>b__4_0(Object o)
+
+ 
+--------------------------------info[20:24:35]--------------------------------
+System.Exception: v2rayN start up
+
+ 

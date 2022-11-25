@@ -1,0 +1,18 @@
+--------------------------------info[00:53:58]--------------------------------
+System.Exception: v2rayN start up
+
+ 
+--------------------------------远程服务器返回错误: (500) 内部服务器错误。[00:57:13]--------------------------------
+System.Net.WebException: 远程服务器返回错误: (500) 内部服务器错误。
+   在 v2rayN.Handler.V2rayUpdateHandle.ws_DownloadFileCompleted(Object sender, AsyncCompletedEventArgs e)
+
+ 
+--------------------------------Application_ThreadException[00:57:13]--------------------------------
+System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 v2rayN.Forms.MainForm.<>c__DisplayClass59_0.<ServerSpeedTest>b__1(Object sender2, ErrorEventArgs args)
+   在 v2rayN.Handler.V2rayUpdateHandle.ws_DownloadFileCompleted(Object sender, AsyncCompletedEventArgs e)
+   在 System.Net.WebClient.OnDownloadFileCompleted(AsyncCompletedEventArgs e)
+
+ 

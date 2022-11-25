@@ -1,0 +1,32 @@
+--------------------------------info[11:18:58]--------------------------------
+System.Exception: v2rayN start up
+
+ 
+--------------------------------远程服务器返回错误: (500) 内部服务器错误。[15:38:19]--------------------------------
+System.Net.WebException: 远程服务器返回错误: (500) 内部服务器错误。
+   在 v2rayN.Handler.V2rayUpdateHandle.ws_DownloadFileCompleted(Object sender, AsyncCompletedEventArgs e)
+
+ 
+--------------------------------在 WebClient 请求期间发生异常。[15:38:57]--------------------------------
+System.Net.WebException: 在 WebClient 请求期间发生异常。 ---> System.IO.IOException: 无法从传输连接中读取数据: 连接已关闭。
+   在 System.Net.ConnectStream.EndRead(IAsyncResult asyncResult)
+   在 System.Net.WebClient.DownloadBitsReadCallbackState(DownloadBitsState state, IAsyncResult result)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 v2rayN.Handler.V2rayUpdateHandle.ws_DownloadFileCompleted(Object sender, AsyncCompletedEventArgs e)
+
+ 
+--------------------------------在 WebClient 请求期间发生异常。[15:46:42]--------------------------------
+System.Net.WebException: 在 WebClient 请求期间发生异常。 ---> System.IO.IOException: 无法从传输连接中读取数据: 远程主机强迫关闭了一个现有的连接。。 ---> System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   在 System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.ConnectStream.EndRead(IAsyncResult asyncResult)
+   在 System.Net.WebClient.DownloadBitsReadCallbackState(DownloadBitsState state, IAsyncResult result)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 v2rayN.Handler.V2rayUpdateHandle.ws_DownloadFileCompleted(Object sender, AsyncCompletedEventArgs e)
+
+ 
+--------------------------------info[23:47:35]--------------------------------
+System.Exception: v2rayN start up
+
+ 

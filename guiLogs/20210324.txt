@@ -1,0 +1,9 @@
+--------------------------------info[22:21:57]--------------------------------
+System.Exception: v2rayN start up
+
+ 
+--------------------------------远程服务器返回错误: (500) 内部服务器错误。[22:22:50]--------------------------------
+System.Net.WebException: 远程服务器返回错误: (500) 内部服务器错误。
+   在 v2rayN.Handler.V2rayUpdateHandle.ws_DownloadFileCompleted(Object sender, AsyncCompletedEventArgs e)
+
+ 
